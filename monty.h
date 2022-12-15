@@ -36,4 +36,6 @@ typedef struct instruction_s
 } instruction_t;
 
 
+void m_pall(stack_t **node, unsigned int line_count);
+
 #endif /* MONTY_H*/
