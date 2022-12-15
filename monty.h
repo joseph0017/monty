@@ -1,6 +1,15 @@
 #ifndef MONTY_H
 #define MONTY_H
 
+#include <sys/types.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+
+#include <unistd.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 /*MACRO*/
 #define SEPARATORS " \n\t\r"
 
