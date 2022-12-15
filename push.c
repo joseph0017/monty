@@ -5,7 +5,6 @@
  * @line_count: current line number
  * Return: number
  */
- 
 int check_digit(char *param, unsigned int line_count)
 {
 	int num;
@@ -26,7 +25,7 @@ int check_digit(char *param, unsigned int line_count)
  * @line_count: current line
  * Return: function
  */
- 
+
 void m_push(stack_t **node, unsigned int line_count)
 {
 	int num;
@@ -40,7 +39,7 @@ void m_push(stack_t **node, unsigned int line_count)
 		free_all();
 		exit(EXIT_FAILURE);
 	}
-  
+
 	num = check_digit(param, line_count);
 	if (!add_node(node, num))
 	{
